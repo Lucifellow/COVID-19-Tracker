@@ -11,4 +11,6 @@ Features included with this tracker:
 * Vaccine trials data with vaccine candidate(name), mechanism, trial phase, and institutions where it is performed
 * Therapeutic trials data with medication class, trade name, researcher, trial phase and last update date
 
+You can visit live website here: https://lucifellow.github.io/COVID-19-Tracker/
+
 You can find more information about disease.sh api on : https://disease.sh/
