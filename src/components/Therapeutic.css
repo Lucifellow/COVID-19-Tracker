@@ -1,0 +1,57 @@
+.therapeutic-container{
+    height:559px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 0 8px -4px rgba(0,0,0,0.5);
+}
+.thera-table-div table tbody tr thead th {
+    display:flex;
+    justify-content: space-evenly;
+}
+.thera-table-div{
+    margin-top: 10px;
+    margin-bottom: 28px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height:470px;
+}
+.thera-table-div td{
+    padding:0.7rem;
+}
+
+.thera-table-div tr:nth-of-type(odd) {
+    background-color: #f3f2f8;
+}
+
+.source_link{
+    padding: 12px;
+    text-decoration: none;
+    background-color:#0275d8;
+    color:white;
+    border-radius: 7px;
+}
+.source_link:hover{
+    background-color:#3c95e9;
+}
+
+@media(min-width:1920px){
+.thera-table-div{
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media(max-width:405px){
+.therapeutic-container{
+        height:588px;
+    }
+}
+
+@media (max-width:770px){
+    .thera-table-div{
+        overflow-x:scroll;
+    }
+}
+
